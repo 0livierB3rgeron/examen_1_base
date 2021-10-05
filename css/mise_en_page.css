@@ -1,0 +1,57 @@
+html, body{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    text-decoration-line: underline;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    
+    
+}
+.contenu
+{ 
+    
+    align-content: center;
+    background-color:blueviolet;
+    display: flex;
+    flex-grow: 5;
+    flex-direction: column;
+    height: 100%;
+}
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: justify;
+   
+    
+}
+a{
+    font-size: 20px;
+}
